@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Ghidra
+Comment=A software reverse engineering suite of tools
+Exec=/usr/bin/ghidra/ghidraRun
+Icon=ghidra.png
+Terminal=false
+Categories=Devlopment;Utility;
