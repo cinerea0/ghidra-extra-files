@@ -7,4 +7,4 @@ Comment=A software reverse engineering suite of tools
 Exec=/usr/bin/ghidra/ghidraRun
 Icon=ghidra.png
 Terminal=false
-Categories=Devlopment;Utility;
+Categories=Development;Utility;
