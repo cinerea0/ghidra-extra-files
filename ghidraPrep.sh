@@ -1,4 +1,6 @@
 #!/bin/bash
+#The argument to this script is based on the assumption that Iconoclasm's tags for new Ghidra releases are just the version number (e.g. 9.1.2)
+#If the tags are a different format (e.g. Ghidra_9.1.2_build), then a line can be added to extract the version number
 
 echo "Fetching tarball"
 wget "https://github.com/NationalSecurityAgency/ghidra/archive/Ghidra_$1_build.tar.gz"

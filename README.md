@@ -1,6 +1,6 @@
 # ghidra-extra-files
 
-This repository contains files that should be added to release tarballs of Ghidra before attempting to make a package from it. The `ghidraPrep.sh` script automatically downloads a Ghidra release and applies these changes. The script can be used by running `./ghidraPrep.sh VERSION` where "VERSION" is replaced by the version of Ghidra you want to package. For example, `ghidraPrep.sh 9.1.2`.
+This repository contains files that should be added to release tarballs of Ghidra before attempting to make a debian package from it. The `ghidraPrep.sh` script automatically downloads a Ghidra release and applies these changes. The script can be used by running `./ghidraPrep.sh VERSION` where "VERSION" is replaced by the version of Ghidra you want to package. For example, `ghidraPrep.sh 9.1.2`.
 
 References for pages useful in the packaging and PPA uploading process:
 * [debuild man page](https://manpages.debian.org/jessie/devscripts/debuild.1.en.html)
